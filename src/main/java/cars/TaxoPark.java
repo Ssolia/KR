@@ -20,23 +20,12 @@ import java.util.List;
 
 //Клас TaxoPark представляє таксопарк і містить функціонал для роботи з автомобілями.
 public class TaxoPark  {
-    public boolean showCarSetBySpeedCalled;
-    public int showCarSetBySpeedMinSpeed;
-    public int showCarSetBySpeedMaxSpeed;
     String name;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public List<Car> garage;
 
     Scanner scanf;
-    private String garageName;
 
     public TaxoPark(String name)
     {
@@ -61,9 +50,7 @@ public class TaxoPark  {
         }
     }
 
-    public TaxoPark() {
 
-    }
 
     public int GetTotalPrice()
     {
@@ -177,20 +164,7 @@ public class TaxoPark  {
 
         Show();
     }
-    public void loadCarsFromDatabase() {
-        try (Connection conn = DatabaseManager.getConnection();
-             PreparedStatement stmt = conn.prepareStatement("SELECT * FROM cars");
-             ResultSet rs = stmt.executeQuery()) {
 
-            while (rs.next()) {
-                Car car = createCarFromResultSet(rs);
-                garage.add(car);
-            }
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
 
     public void saveCarToDatabase(Car car) {
         try (Connection conn = DatabaseManager.getConnection();
@@ -225,35 +199,5 @@ public class TaxoPark  {
         }
     }
 
-    private Car createCarFromResultSet(ResultSet rs) throws SQLException {
-        String type = rs.getString("type");
-        String plate = rs.getString("plate");
-        String mark = rs.getString("mark");
-        String colour = rs.getString("colour");
-        int speed = rs.getInt("speed");
-        double gas = rs.getDouble("gas");
-        int price = rs.getInt("price");
-
-        Car car;
-        switch (CarTypes.valueOf(type)) {
-            case TAXI:
-                int passengerCount = rs.getInt("passenger_count");
-                car = new Taxi(plate, mark, colour, speed, gas, price, passengerCount);
-                break;
-            case ELITETAXI:
-                car = new EliteTaxi(plate, mark, colour, speed, gas, price, rs.getInt("passenger_count"));
-                break;
-            case TAXIBUS:
-                double volume = rs.getDouble("volume");
-                double weight = rs.getDouble("weight");
-                car = new TaxiBus(plate, mark, colour, speed, gas, price, volume, weight);
-                break;
-            default:
-                car = new Car(plate, mark, colour, speed, gas, price);
-                break;
-        }
-
-        return car;
-    }
 
 }
