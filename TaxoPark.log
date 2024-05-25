@@ -1,0 +1,70 @@
+May 25, 2024 1:01:41 AM cars.TaxoPark ShowCarSetBySpeed
+INFO: Speed diapason (100 - 200) :
+May 25, 2024 1:01:41 AM cars.TaxoPark ShowCarSetBySpeed
+INFO: Type: TAXI, Plate: ВС 2054 АР, Mark: Nissan, Color: CYAN, Speed: 120, Gas: 15.0, Price: 500000, Passenger Count: 4
+May 25, 2024 1:01:41 AM cars.TaxoPark ShowCarSetBySpeed
+INFO: Type: TAXIBUS, Plate: ВС 2054 АР, Mark: Nissan, Color: WHITE, Speed: 100, Gas: 10.0, Price: 800000, Volume: 8.0, Weight: 7.0
+May 25, 2024 1:01:41 AM cars.TaxoPark SortByGas
+INFO: Sort by gas
+May 25, 2024 1:01:41 AM cars.TaxoPark Show
+INFO: Taxopark infoTestTaxoPark:
+May 25, 2024 1:01:41 AM cars.TaxoPark Show
+INFO: Type: ELITETAXI, Plate: ВС 2054 АР, Mark: Nissan, Color: RED, Speed: 260, Gas: 5.0, Price: 150000, Passenger Count: 2, Driver: Mykola
+May 25, 2024 1:01:41 AM cars.TaxoPark Show
+INFO: Type: TAXIBUS, Plate: ВС 2054 АР, Mark: Nissan, Color: WHITE, Speed: 100, Gas: 10.0, Price: 800000, Volume: 8.0, Weight: 7.0
+May 25, 2024 1:01:41 AM cars.TaxoPark Show
+INFO: Type: TAXI, Plate: ВС 2054 АР, Mark: Nissan, Color: CYAN, Speed: 120, Gas: 15.0, Price: 500000, Passenger Count: 4
+May 25, 2024 1:01:41 AM cars.TaxoPark Show
+INFO: Taxopark infoTestTaxoPark:
+May 25, 2024 1:01:41 AM cars.TaxoPark Show
+INFO: Type: TAXI, Plate: ВС 2054 АР, Mark: Nissan, Color: CYAN, Speed: 120, Gas: 15.0, Price: 500000, Passenger Count: 4
+May 25, 2024 1:01:41 AM cars.TaxoPark Show
+INFO: Type: ELITETAXI, Plate: ВС 2054 АР, Mark: Nissan, Color: RED, Speed: 260, Gas: 5.0, Price: 150000, Passenger Count: 2, Driver: Mykola
+May 25, 2024 1:01:41 AM cars.TaxoPark Show
+INFO: Type: TAXIBUS, Plate: ВС 2054 АР, Mark: Nissan, Color: WHITE, Speed: 100, Gas: 10.0, Price: 800000, Volume: 8.0, Weight: 7.0
+May 25, 2024 1:01:41 AM cars.TaxoPark Add
+INFO: В гараж додана машина: Type: TAXI, Plate: AB 1234 CD, Mark: BMW, Color: Blue, Speed: 220, Gas: 8.5, Price: 300000, Passenger Count: 4
+May 25, 2024 1:01:41 AM cars.TaxoPark SortByGas
+INFO: Sort by gas
+May 25, 2024 1:01:41 AM cars.TaxoPark Show
+INFO: Taxopark infoTestTaxoPark:
+May 25, 2024 1:01:41 AM cars.TaxoPark Show
+INFO: Type: ELITETAXI, Plate: ВС 2054 АР, Mark: Nissan, Color: RED, Speed: 260, Gas: 5.0, Price: 150000, Passenger Count: 2, Driver: Mykola
+May 25, 2024 1:01:41 AM cars.TaxoPark Show
+INFO: Type: TAXIBUS, Plate: ВС 2054 АР, Mark: Nissan, Color: WHITE, Speed: 100, Gas: 10.0, Price: 800000, Volume: 8.0, Weight: 7.0
+May 25, 2024 1:01:41 AM cars.TaxoPark Show
+INFO: Type: TAXI, Plate: ВС 2054 АР, Mark: Nissan, Color: CYAN, Speed: 120, Gas: 15.0, Price: 500000, Passenger Count: 4
+May 25, 2024 1:01:41 AM cars.TaxoPark Add
+INFO: В гараж додана машина: Type: TAXI, Plate: AB 1234 CD, Mark: BMW, Color: Blue, Speed: 200, Gas: 8.5, Price: 300000, Passenger Count: 4
+May 25, 2024 1:01:41 AM cars.TaxoPark Add
+INFO: В гараж додана машина: Type: TAXI, Plate: BC 5678 EF, Mark: Toyota, Color: Red, Speed: 180, Gas: 7.0, Price: 250000, Passenger Count: 4
+May 25, 2024 1:01:41 AM cars.TaxoPark Add
+INFO: В гараж додана машина: Type: TAXI, Plate: CD 9101 GH, Mark: Mercedes, Color: Black, Speed: 240, Gas: 9.5, Price: 350000, Passenger Count: 4
+May 25, 2024 1:01:41 AM cars.TaxoPark ShowCarSetBySpeed
+INFO: Speed diapason (200 - 240) :
+May 25, 2024 1:01:41 AM cars.TaxoPark ShowCarSetBySpeed
+INFO: Type: TAXI, Plate: AB 1234 CD, Mark: BMW, Color: Blue, Speed: 200, Gas: 8.5, Price: 300000, Passenger Count: 4
+May 25, 2024 1:01:41 AM cars.TaxoPark ShowCarSetBySpeed
+INFO: Type: TAXI, Plate: CD 9101 GH, Mark: Mercedes, Color: Black, Speed: 240, Gas: 9.5, Price: 350000, Passenger Count: 4
+May 25, 2024 1:01:41 AM cars.TaxoPark GetTotalPrice
+INFO: Total Price: 1450000
+May 25, 2024 1:01:41 AM cars.TaxoPark Add
+INFO: В гараж додана машина: Type: ELITETAXI, Plate: AB 1234 CD, Mark: EliteTaxi, Color: Blue, Speed: 220, Gas: 8.5, Price: 300000, Passenger Count: 4, Driver: Mykola
+May 25, 2024 1:01:41 AM cars.TaxoPark Add
+INFO: В гараж додана машина: Type: TAXIBUS, Plate: AB 1234 CD, Mark: TaxiBus, Color: Blue, Speed: 220, Gas: 8.5, Price: 300000, Volume: 0.0, Weight: 0.0
+May 25, 2024 1:01:41 AM cars.TaxoPark Add
+INFO: В гараж додана машина: Type: TAXI, Plate: AB 1234 CD, Mark: UnknownCarType, Color: Blue, Speed: 220, Gas: 8.5, Price: 300000, Passenger Count: 4
+May 25, 2024 8:22:42 PM cars.TaxoPark Show
+INFO: Taxopark infoBolt Taxi:
+May 25, 2024 8:22:42 PM cars.TaxoPark Show
+INFO: Type: TAXI, Plate: ВС 2054 АР, Mark: Nissan, Color: CYAN, Speed: 120, Gas: 15.0, Price: 500000, Passenger Count: 4
+May 25, 2024 8:22:42 PM cars.TaxoPark Show
+INFO: Type: ELITETAXI, Plate: ВС 2054 АР, Mark: Nissan, Color: RED, Speed: 260, Gas: 5.0, Price: 150000, Passenger Count: 2, Driver: Mykola
+May 25, 2024 8:22:42 PM cars.TaxoPark Show
+INFO: Type: TAXIBUS, Plate: ВС 2054 АР, Mark: Nissan, Color: WHITE, Speed: 100, Gas: 10.0, Price: 800000, Volume: 8.0, Weight: 7.0
+May 25, 2024 8:54:40 PM cars.TaxoPark Add
+INFO: В гараж додана машина: Type: TAXI, Plate: 2, Mark: bmw, Color: red, Speed: 3455, Gas: 234.0, Price: 12345, Passenger Count: 3
+May 25, 2024 8:57:11 PM cars.TaxoPark Add
+INFO: В гараж додана машина: Type: ELITETAXI, Plate: 2, Mark: audo\i, Color: black, Speed: 64, Gas: 223.0, Price: 564, Passenger Count: 4, Driver: Mykola
+May 25, 2024 8:58:30 PM cars.TaxoPark Add
+INFO: В гараж додана машина: Type: TAXIBUS, Plate: 3, Mark: audi, Color: white, Speed: 345, Gas: 34.0, Price: 224, Volume: 23.0, Weight: 353.0
