@@ -10,6 +10,14 @@ public class DatabaseManager {
     private static final String PASSWORD = "26102004Solia_";
 
     public static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(URL, USER, PASSWORD);
+        try {
+            return DriverManager.getConnection(URL, USER, PASSWORD);
+        } catch (SQLException e) {
+            // Log the error or handle it gracefully
+            System.err.println("Failed to connect to the database: " + e.getMessage());
+            // Re-throw the exception or throw a custom exception
+            throw e;
+        }
     }
+
 }
